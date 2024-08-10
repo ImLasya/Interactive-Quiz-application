@@ -1,0 +1,61 @@
+/* div{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+    align-items: center;
+} */
+body {
+    display: flex;
+    justify-content: center;  /* Horizontally centers the div */
+    align-items: center;      /* Vertically centers the div */
+    height: 100vh;            /* Full viewport height */
+    margin: 0;     
+    background-color: #f5f5dc ;           /* Remove default margin */
+}
+header {
+    display: flex; /* Enable Flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically (if header height is specified) */
+    background-color: #4B0082;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+div {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #D8BFD8;
+    border-radius: 5px;
+    width: 300px;             /* Set the width of the div */
+    height: 200px;   
+    text-align: center;         /* Set the height of the div */
+    background-color: #E6E6FA;
+}
+/* h1{
+    text-align: center;
+    font-size: large;
+} */
+p{
+    color: #2F4F4F;
+}
+h1 {
+    margin: 0;
+    font-size: 24px;
+    color:  #FFFFFF ;
+}
+button{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    color:  #FFFFFF ;
+    background-color: #C71585;
+}
